@@ -191,8 +191,8 @@ bool IntelMausi::init(OSDictionary *properties)
         adapterData.pdev = &pciDeviceData;
         mtu = ETH_DATA_LEN;
         isRssSet = false;
-        wolCapable = false;
-        wolActive = false;
+        wolCapable = true;
+        wolActive = true;
         enableCSO6 = false;
         pciPMCtrlOffset = 0;
         maxLatency = 0;
